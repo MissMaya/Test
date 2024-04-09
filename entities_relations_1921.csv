@@ -1,0 +1,398 @@
+﻿Head,Relationship,Tail
+Overlooker,IN_CHARGE_OF,Wool Sorting Department
+Overlooker,SUPERVISES,Foremen
+Overlooker,DOES_WORK_OF,Foreman
+Foremen,SUPERVISED_BY,Overlooker
+Carding Overlooker,IN_CHARGE_OF,Carding Department
+Carding Overlooker,PART_OF,Woollen Mill
+Carding Overlooker,PART_OF,Wool Combing Establishment
+Carding Overlooker,PART_OF,Wool Combing Department
+Foreman Carder,IN_CHARGE_OF,Card Room
+Foreman Carder,ADJUSTS,Carding Machines
+Card Room,WHERE,Wool
+Card Room,WHERE,Hair
+Foreman,IN_CHARGE_OF,Card Grinder
+Foreman,IN_CHARGE_OF,Carding Department
+Card Grinder,PART_OF,Textile Factory
+Carding Department,PART_OF,Textile Factory
+Card Grinder,WORKS_ON,Frames
+Frames,BELONGS_TO,Carding Department
+Head Carder,IN_CHARGE_OF,Carding Department
+Head Carder,IN_CHARGE_OF,Cotton
+Under-Carder,EMPLOYED_BY,Head Carder
+Head Carder,CONTROLS,Whole Carding Department
+Overlooker,IN_CHARGE_OF,Carding Department
+Overlooker,IN_CHARGE_OF,Combing Department
+Overlooker,IN_CHARGE_OF,Drawing Department
+Overlooker,IN_CHARGE_OF,Preparing Department
+Carding Department,PART_OF,Textile Factory
+Combing Department,PART_OF,Textile Factory
+Drawing Department,PART_OF,Textile Factory
+Preparing Department,PART_OF,Textile Factory
+Overlooker,SETS,Machines
+Overlooker,RUNS,Machines
+Overlooker,ADJUSTS,Machines
+Overlooker,REPAIRS,Machines
+Overlooker,ENGAGES,Workers
+Overlooker,DISCHARGES,Workers
+Preparing Master,IN_CHARGE_OF,Preparers
+Preparing Master,IN_CHARGE_OF,Preparing Machines
+Preparing Machines,PART_OF,Textile Factory
+Preparing Master,KEEPS_IN_ORDER,Preparing Machines
+Under-Carder,ASSISTS,Carder
+Under-Carder,SUPERINTENDS,Operations in Card Room
+Under-Carder,SUPERINTENDS,Operation of Scutching
+Under-Carder,SUPERINTENDS,Operation of Stubbing
+Under-Carder,SUPERINTENDS,Operation of Roving
+Under-Carder,ADJUSTS,Machines
+Under-Carder,REPAIRS,Machines
+Doubling Overlooker,IN_CHARGE_OF,Doubling Room
+Doubling Room,PART_OF,Textile Factory
+Doubling Overlooker,RESPONSIBLE_FOR,Regularity of Output
+Doubling Overlooker,RESPONSIBLE_FOR,Quantity of Output
+Doubling Overlooker,RESPONSIBLE_FOR,Quality of Output
+Doubling Overlooker,RESPONSIBLE_FOR,Condition of Machinery
+Spinning Mill Steward,IN,Silk Spinning Department
+Spinning Mill Steward,SAME_AS,Spinning Overlooker
+Spinning Overlooker,IN_CHARGE_OF,Silk Spinning Department
+Under-Master,ASSISTS,Spinning Master
+Under-Master,WORKS_UNDER,Spinning Master
+Under-Master,TAKES_PLACE_WHEN_ABSENT,Spinning Master
+Wheel Changer,OVERLOOKER_IN,Wool Spinning Department
+Wheel Changer,CHANGES,Gears
+Wheel Changer,CHANGES,Rollers
+Wheel Changer,SETS,Spinning Machines
+Danter,IN,Silk Throwing Department
+Danter,SLANG_FOR,Woman Overlooker
+Doubler Overlooker,IN_CHARGE_OF,Silk Doubling Department
+Silk Doubling Department,PART_OF,Textile Factory
+Doubler Overlooker,DIRECTS,Silk Doublers
+Doubler Overlooker,CONTROLS,Silk Doublers
+Doubler Overlooker,CONTROLS,Other Operatives
+Warping Overlooker,IN_CHARGE_OF,Warping Room
+Warping Room,PART_OF,Textile Factory
+Warping Overlooker,RESPONSIBLE_FOR,Condition of Machinery
+Warping Overlooker,RESPONSIBLE_FOR,Running of Machinery
+Warping Overlooker,DESPATCHES,Yarn
+Winding Master,IN_CHARGE_OF,Winding Department
+Winding Master,OVERLOOKER_IN,Winding Department
+Head Tuner,ACTS_AS,Overlooker (Weaving)
+Head Tuner,ADJUSTS,Jacquard Machines
+Head Tuner,SUPERVISES,Operatives
+Jacquard Machine Gaiter,ADJUSTS,Jacquard Machines
+Jacquard Machine Gaiter,SUPERVISES,Operatives
+Jacquard Tackier,ADJUSTS,Jacquard Machines
+Jacquard Tackier,SUPERVISES,Operatives
+Jaque Man,ADJUSTS,Jacquard Machines
+Jaque Man,SUPERVISES,Operatives
+Colour Foreman,SUPERVISES,Looms
+Colour Foreman,RESPONSIBLE_FOR,Correct Weaving
+Colour Foreman,SELECTS,Coloured Yarns
+Coloured Yarns,SELECTED_BY,Colourists
+Foreman Finisher,DIRECTS_OPERATIONS_IN,Textile Finishing Departments
+Foreman Finisher,IN_CHARGE_OF,Finishers
+Finishers,CONSISTS_OF,Calenderers
+Finishers,CONSISTS_OF,Manglers
+Finishers,CONSISTS_OF,Scourers
+Finishers,CONSISTS_OF,Millers
+Finishers,CONSISTS_OF,Tenterers
+Gassers' Overlooker,IN_CHARGE_OF,Gassing Room
+Gassing Room,PART_OF,Textile Factory
+Gassers' Overlooker,RESPONSIBLE_FOR,Quantity of Gassed Yarn Produced
+Gassers' Overlooker,RESPONSIBLE_FOR,Quality of Gassed Yarn Produced
+Gassers' Overlooker,RUNS,Machines
+Loft Man,IN_CHARGE_OF,Finishing Department
+Finishing Department,PART_OF,Linen Bleaching Works
+Stenter Man,IN_CHARGE_OF,Stenterers
+Stenter Man,RESPONSIBLE_FOR,Stentering Machines
+Stenter Man,RESPONSIBLE_FOR,Starching Mangles
+Stenter Man,RESPONSIBLE_FOR,Airing Cylinders
+Dayman,EMPLOYED_IN,Wool Sorting Department
+Dayman,PAID_BY,Time
+Dayman,NOT_PAID_BY,Piece Rates
+Merino Sorter,SORTS,Merino Wool
+Merino Wool,SUITABLE_FOR,Combing
+Wool Classer,SORTS,Whole Fleeces
+Wool Classer,KEEPS_APART,Coarse Fleeces
+Wool Classer,KEEPS_APART,Fine Fleeces
+Wool Classer,KEEPS_APART,Long-Wooled Fleeces
+Wool Classer,KEEPS_APART,Short-Wooled Fleeces
+Wool Classer,KEEPS_APART,Heavy Fleeces
+Wool Classer,KEEPS_APART,Light Fleeces
+Wool Classer,KEEPS_APART,Dirty Fleeces
+Wool Classer,KEEPS_APART,Scoured Fleeces
+Wool Sorter's Apprentice,ASSISTS,Wool Sorter
+Wool Sorter's Apprentice,WORKS_UNDER,Wool Sorter
+Wool Sorter's Apprentice,LEARNS_TRADE_FROM,Wool Sorter
+Beater,MAINTAINS_SUPPLY_OF,Waste Silk
+Beater,HAND_FEEDING,Beating Machine
+Beating Machine,REMOVES,Dust
+Beating Machine,RECEIVES,Silk from Scutcher
+Scutcher,PROVIDES,Silk
+Buffer,FEEDS,Hopper
+Buffer,ATTENDS_TO,Machine
+Machine,BUFFS,Flax
+Machine,RUBS,Flax
+Machine,REMOVES,Refuse
+Machine,REMOVES,Coarse Tow
+Machine,PREPARES_FOR,Scutching Process
+Ender,RECEIVES,Flax
+Ender,SPINS,Flax
+Ender,COMBS,Flax
+Ender,USES,Machine Hackler
+Machine Hackler,PROVIDES,Flax
+Ender,USES,Fine Hackles
+Machine Hand (Hair),ATTENDS,Hair Preparing Machines
+Machine Hand (Hair),INCLUDES,Opener (Hair)
+Machine Hand (Hair),INCLUDES,Teaser (Hair)
+Machine Hand (Hair),INCLUDES,Untwister (Hair)
+Machine Hand (Hair),INCLUDES,Willeyer
+Opener,MINDS,Opening Machine
+Opener,COMBINED_WITH,Lap-forming Part
+Opener,PART_OF,Scutcher
+Scutcher,PART_OF,Opening Machine
+Parter,OPENS,Bundles of Raw Silk
+Parter,SEPARATES_INTO,Smaller Bundles
+Screener,FEEDS,Machine
+Screener,OPERATES,Machine
+Machine,CLEANS,Dirty Wool
+Machine,CARRIES_AWAY,Dirt
+Dirt,FALLS_THROUGH,Grid
+Dirt,CARRIED_AWAY_BY,Suction
+Scutcher,OPERATES,Machine
+Scutcher,ATTENDS,Machine
+Machine,LOOSENS,Short Fibres of Silk Waste
+Machine,STRAIGHTENS,Short Fibres of Silk Waste
+Machine,CLEANS,Short Fibres of Silk Waste
+Machine,FEEDS,By Hand
+Machine,REMOVES,Laps
+Laps,RESEMBLING,Wadding
+Laps,OF,Scutched Silk
+Stricker,RECEIVES,Flax Straw
+Stricker,DIVIDES,Flax Straw
+Stricker,GIVES,Stricks
+Stricker,TWISTS,Stricks
+Stricker,PASSES_TO,Scutcher
+Weigher and Feeder,WEIGHS,Loose Cotton
+Weigher and Feeder,PASSES_TO,Lap Machine
+Lap Machine,FORMS,Lap
+Lap Machine,PASSES_TO,Scutcher
+Weigher and Feeder,WEIGHS_OUT,Material
+Weigher and Feeder,PASSES_TO,Carding Engine
+Big Tenter,PRINCIPAL_ATTENDANT_ON,Frame or Machine
+Big Tenter,STARTS,Machine
+Big Tenter,STOPS,Machine
+Big Tenter,ASSISTED_BY,Little Tenter
+Little Tenter,MENDS,Broken Rovings
+Little Tenter,PIECES,Broken Rovings
+Little Tenter,CREELS,Bobbins
+Little Tenter,OILS,Machine
+Little Tenter,CLEANS,Machine
+Little Tenter,REMOVES,Pieces of Flax
+Little Tenter,TAKES_AWAY,Full Bobbins
+Billy Tenter,ATTENDS_TO,Front of Finisher
+Billy Tenter,ATTENDS_TO,Condenser Carding Engine
+Billy Tenter,TAKES_OFF,Condenser Bobbins
+Billy Tenter,CONVEYS_TO,Mule Spinning Frame
+Condenser Bobbins,PART_OF,Condenser Carding Engine
+Condenser Carding Engine,PART_OF,Front of Finisher
+Mule Spinning Frame,RECEIVES_FROM,Billy Tenter
+Derby Tenter,EMPLOYED_IN,Waste Spinning Mills
+Derby Tenter,ATTENDANT_ON,Draw Box
+Derby Tenter,ATTENDANT_ON,Derby Doubler
+Derby Tenter,MENDS,Slivers
+Derby Tenter,FEEDS,Derby Doubler
+Draw Box,PART_OF,Draw Frame
+Slivers,BROKEN_IN,Drawing Process
+Derby Doubler,COMBINES,Slivers
+Derby Doubler,FORMS,Lap
+Breaker Feeder,FEEDS,Carding Machine
+Breaker Feeder,TAKES,Batched Jute
+Batched Jute,FROM,Barrows
+Batched Jute,FROM,Dollop Weigher
+Batched Jute,RETAINS,Oil
+Oil,FROM,Softening Process
+Softening Process,OF,Jute
+Jute,UPON,Feed Apron
+Feed Apron,OF,Carding Machine
+Breaker Feeder,WATCHES,Weight Indicator
+Weight Indicator,REGULATES,Amount Fed
+Card and Drawing Hand,ATTENDS,Feed of First Drawing Frame
+Card and Drawing Hand,TAKES,Cans of Sliver
+Card and Drawing Hand,PLACES,Feed Side of Drawing Machine
+Card and Drawing Hand,NOT_DONE_BY,Can Filler
+Can Filler,RELATED_TO,399
+Carding Engine Attendant,ATTENDS_TO,Carding Engine
+Carding Engine Attendant,FEEDS,Laps
+Carding Engine Attendant,REMOVES,Slivers
+Carding Engine Attendant,INCLUDES,Carder Feeder
+Carding Engine Attendant,INCLUDES,Lap Feeder
+Carding Engine Attendant,INCLUDES,Card Minder
+Carding Engine,HAS,Condenser Feeder
+Condenser Feeder,FEEDS,Card Feeder (Wool)
+Card Feeder (Wool),LAYS_LAP_ON,Feed Roller of Condensing Engine
+Carding Machine Attendant,OPERATES,Carding Machine
+Carding Machine Attendant,PASSES,Flock
+Carding Machine Attendant,TAKES_OUT,Carded Flock
+Carding Machine Attendant,PUTS_INTO,Mattress Cases
+Drawing Ender,STANDS_AT,Back of Drawing Frame
+Drawing Ender,UNITES,Ends of Sliver
+Drawing Ender,PASSES_INTO,Feed Rollers of Frame
+Drawing Frame,PART_OF,Wool Combing Department
+Drawing Hand,EMPLOYED_IN,Drawing Department
+Drawing Department,PART_OF,Wool Combing Establishment
+Feeder,FEEDS,Travelling Band Apron
+Feeder,FEEDS,Drawing Frame
+Feeder,FEEDS,Roving Frame
+Travelling Band Apron,PART_OF,Breaker Card
+Finishing Box Tenter,MINDS,Third Set of Drawing Frames
+Finishing Box Tenter,MINDS,Final Set of Drawing Frames
+Finishing Box Tenter,MINDS,Back Portion of Breaker Carding Engine
+Finishing Box Tenter,MINDS,Back Portion of Finisher Carding Engine
+Breaker Carding Engine,PART_OF,Cotton Waste Card Room
+Finisher Carding Engine,PART_OF,Cotton Waste Card Room
+Frame Tenter,MINDS,Machine
+Frame Tenter,USES,Frame
+Frame,ATTENUATES,Textile Materials
+Frame,DRAWS,Textile Materials
+Frame,INCLUDES,Fly Frame
+Frame,INCLUDES,Speed Frame
+Frame,INCLUDES,Draw Frame
+Frame,INCLUDES,Finishing Box
+Frame,INCLUDES,Intermediate Frame
+Frame,INCLUDES,Rover
+Rover,REFERRED_AS,Intermediate Frame Tenter
+Rover,REFERRED_AS,Big Tenter
+Rover,REFERRED_AS,Draw Frame Tenter
+Rover,REFERRED_AS,Silk Dresser
+Front Minder,STANDS_AT,Front of Jute Roving Machine
+Front Minder,MENDS,Threads
+Front Minder,SPLICING,Ends
+Front Minder,STARTS,Machine
+Front Minder,STOPS,Machine
+Front Minder,ASSISTED_BY,Shifter (Jute Preparing)
+Shifter (Jute Preparing),RELATED_TO,Front Minder
+Front Minder,OPERATES,Hand Lever
+Jigger,IN_CHARGE_OF,Combing Machine
+Combing Machine,PART_OF,Textile Factory
+Combing Machine,PROCESS_AFTER,Dyeing
+Combing Machine,PROCESS_BEFORE,Re-combing
+Joiner Tenter,SHARES_WORK_WITH,Operative
+Joiner Tenter,MINDS,Draw Frames
+Joiner Tenter,MINDS,Flyer Frames
+Joiner Tenter,MINDS,Machines
+Lap Tenter,TAKES,Lap
+Lap Tenter,GUIDES_ONTO,Winding Beam
+Lap Tenter,CARRIES,Wound Lap
+Lap Tenter,CARRIES,Folded Lap
+Wound Lap,NEXT_MACHINE,Next Machine
+Folded Lap,NEXT_MACHINE,Next Machine
+Carding Engine,PROVIDES,Lap
+Lattice Feeder,PUTS_MATERIAL_ON,Lattice Feed Attachment
+Lattice Feed Attachment,PART_OF,Machine
+Relapper,TAKES,Silk
+Relapper,USES,Re-lapping Box
+Relapper,LEVELS_UP,Lap
+Spreader,FORMS,Silk
+Spreader,USES,Lap
+Re-lapping Box,SIMILAR_TO,Spreading Machine
+Rover,MINDS,Roving Machine
+Roving Machine,TWISTS,Line
+Roving Machine,ATTENUATES,Line
+Roving Machine,PREPARES_FOR,Spinning Process
+Sliver Breaker,BREAKS_OFF,Sliver
+Sliver Breaker,REMOVES,Sliver Can
+Sliver Breaker,STARTS,Fresh Can
+Sliver Breaker,WORKS_WITH,Carding Engines
+Sliver Breaker,WORKS_WITH,Drawing Frames
+Spare Tenter,REPLACES,Fly Frame Tenter
+Spare Tenter,REPLACES,Fly Frame Tenter
+Spare Tenter,REPLACES,Fly Frame Tenter
+Spare Tenter,REPLACES,Fly Frame Tenter
+Spreader,LAYERS,Laps
+Laps,FORMED_FROM,Different Kinds of Waste
+Different Kinds of Waste,TAKEN_FROM,Bobbins
+Spreader,ON,Lattice of Blending Machine
+Lattice of Blending Machine,PART_OF,Blending Machine
+Spreader,SPREADS,Cotton
+Cotton,ON,Feeding Apparatus
+Feeding Apparatus,IN,Blowing and Scutching Room
+Spreader,COVERS,Long Board
+Spreader,HOLDS,Material
+Spreader,ARRANGES,Material
+Spreader,DRAWS,Material
+Spreader,ATTENUATES,Material
+Spreader,FORMS_INTO,Continuous Thread
+Spreader,FORMS_INTO,Sliver
+Tummer Feeder,FEEDS,Opener Carding Machine
+Tummer Feeder,LAY_ON,Feed Plate
+Opener Carding Machine,USED_IN,Manufacture of Felt
+Wool,USED_IN,Manufacture of Felt
+Wadding Maker,USES,Cotton Waste
+Wadding Maker,PASSES_THROUGH,Willowing Machine
+Wadding Maker,PASSES_THROUGH,Carding Machine
+Willowing Machine,OPENS_OUT,Fibres
+Carding Machine,OPENS_OUT,Fibres
+Wadding Maker,PLACES_IN,Lap Rollers
+Lap Rollers,USED_IN,Gumming Machine
+Gumming Machine,WATCHES,Gumming and Drying Process
+Gumming Machine,WATCHES,Creeper
+Gumming Machine,WATCHES,Lap Conveyor
+Creeper,MOVES_THROUGH,Drying Chamber
+Lap Conveyor,MOVES_THROUGH,Drying Chamber
+Waste Piecer,MINDS_AND_FEEDS,Machine
+Machine,EXTRACTS,Dirt
+Machine,EXTRACTS,Hard Ends
+Machine,EXTRACTS,Other Impurities
+Machine,PROCESSES,Cotton Waste
+Weigh Box Minder,WATCHES,Weigh Box Drawing Machine
+Weigh Box Minder,GUIDES,Ends of Slubbing
+Weigh Box Minder,BREAKS_OFF,Slubbing
+Weigh Box Minder,REMOVES,Full Bobbins
+Weigh Box Drawing Machine,STOPS_AUTOMATICALLY_WHEN,Certain Length of Slubbing
+Stripper-and-grinder,CLEANS,Surfaces of Card Doffer Cylinders
+Stripper-and-grinder,STRIPS,Surfaces of Card Doffer Cylinders
+Stripper-and-grinder,GRINDS,Wire Teeth of Cards
+Stripper-and-grinder,GRINDS,Doffers on Surface of Cylinders
+Card Doffer Cylinders,PART_OF,Cylinders
+Cards,HAS,Wire Teeth
+Doffers,HAS,Wire Teeth
+Creeler,COLLECTS,Condenser Bobbins
+Creeler,TAKES_TO,Mule Room
+Creeler,PLACES,Full Bobbins
+Creeler,REMOVES,Empty Bobbins
+Condenser Bobbins,FROM,Card Room
+Full Bobbins,ON,Worsted Spinning Frame
+Empty Bobbins,FROM,Worsted Spinning Frame
+End Lapper,ASSISTS,Spinner
+End Lapper,ATTACHES,Loose Ends of Yarn
+End Lapper,ATTACHES_TO,Bobbins
+Framer,MINDS,Wool Spinning Frame
+Framer,PART_OF,Wool Spinning Department
+Wool Spinning Frame,PART_OF,Wool Spinning Department
+Improver,WORKS_UNDER,Spinner
+Improver,WORKS_UNDER,Minder
+Improver,WORKS_UNDER,Spinner
+Improver,WORKS_UNDER,Minder
+Improver,PROMOTED_FROM,Piecer
+Improver,DEPENDS_ON,Vacancies at Frames
+Joiner-Piecer,SHARE_DUTIES_WITH,Piecer
+Joiner-Piecer,SHARE_EARNINGS_WITH,Piecer
+Layer,ATTACHES,Yarn
+Layer,ATTACHES_TO,Bobbins
+Layer,ASSISTS_IN,Restarting Frames
+Layer,REMOVES,Spools
+Doffer,REMOVES,Spools
+Yarn,BREAKS,Spinning
+Layer,LAYS_OVER,End of Spun Yarn
+Layer,LAYS_OVER,End of Roving Bobbin
+End of Spun Yarn,NEATLY_KNOTTED_WITH,End of Roving Bobbin
+End of Spun Yarn,NEATLY_KNOTTED_FOR,Reeling
+Looper,MINDS,Frame
+Looper,SPINS,Yarn
+Looper,FEEDS,Machine
+Looper,WATCHES,Looping Mechanism
+Looper,REPORTS,Maladjustments
+Looper,TIES_UP,Broken Ends
+Looper,IN_CHARGE_OF,Yarn Spinning Department
+Yarn Spinning Department,PART_OF,Textile Factory
